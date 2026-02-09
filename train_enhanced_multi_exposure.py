@@ -15,10 +15,10 @@ from datetime import datetime
 import math
 
 # Import enhanced models and losses
-from model.IAT_main_enhanced import IAT_Enhanced, IAT_Advanced
+from model.IAT_main import IAT_Enhanced, IAT_Advanced
 from model.losses import ExposureWhiteBalanceLoss, CombinedLoss
 from model.multi_exposure_encoder import MultiExposureEncoder
-from data_loaders.multi_exposure_dynamic import MultiExposureDynamicLoader
+from data_loaders.multi_exposure import MultiExposureDynamicLoader
 
 
 # Custom collate function for multi-exposure data
