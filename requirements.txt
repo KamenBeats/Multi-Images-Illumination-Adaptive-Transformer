@@ -1,0 +1,8 @@
+pillow==8.3.1
+numpy==1.19.5
+IQA_pytorch
+timm==0.9.12
+tqdm==4.62.3
+opencv-python==4.5.3.56
+scipy==1.5.4
+matplotlib==3.3.4
